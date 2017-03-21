@@ -11,6 +11,28 @@
         android:layout_height="match_parent"
         android:id="@+id/pager"/>
 
+<LinearLayout
+    android:id="@+id/layoutdots"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dots_height"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal"
+    android:gravity="center"
+
+    >
+</LinearLayout>
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:text="Continuez"
+        android:textColor="#fff"
+        android:background="@null"
+
+       />
 
 
 </RelativeLayout>
