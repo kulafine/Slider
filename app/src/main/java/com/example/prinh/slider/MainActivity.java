@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
                 if (current<2){
                     viewPager.setCurrentItem(1);
                 }else{
-                    //lunch home Activity
+                    //launch home Activity
                 }
 
 

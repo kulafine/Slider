@@ -17,9 +17,7 @@
     android:layout_height="@dimen/dots_height"
     android:layout_alignParentTop="true"
     android:orientation="horizontal"
-    android:gravity="center"
-
-    >
+    android:gravity="center">
 </LinearLayout>
 
     <Button
@@ -30,9 +28,7 @@
         android:layout_alignParentBottom="true"
         android:text="Continuez"
         android:textColor="#fff"
-        android:background="@null"
-
-       />
+        android:background="@null"/>
 
 
 </RelativeLayout>

@@ -35,15 +35,19 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/cls"
-        android:prompt="@string/spinner_prompt_class"/>
+        android:prompt="@string/spinner_prompt_class"
+        android:background="@drawable/spinnerbg"/>
 
     <Spinner
         android:layout_width="350dp"
         android:layout_height="40dp"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
         android:id="@+id/fty"
-        android:prompt="@string/spinner_prompt_class"/>
+        android:prompt="@string/spinner_prompt_faculty"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/spinnerbg"
+        android:layout_below="@+id/cls"
+        android:layout_alignLeft="@+id/cls"
+        android:layout_alignStart="@+id/cls" />
 
 
 </RelativeLayout>
