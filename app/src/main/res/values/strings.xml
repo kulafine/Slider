@@ -4,5 +4,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment1</string>
     <string name="username">Username</string>
+    <string name="spinner_prompt_class">Select Class</string>
+    <string name="spinner_prompt_faculty">Select Faculty</string>
 
 </resources>
