@@ -1,21 +1,20 @@
 package com.example.prinh.slider;
 
 
-import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.Toast;
-
-public class Frag1 extends Fragment {
 
 
+/**
+ * A simple {@link Fragment} subclass.
+ */
+public class Frag3 extends Fragment {
 
-    public Frag1() {
+
+    public Frag3() {
         // Required empty public constructor
     }
 
@@ -24,14 +23,7 @@ public class Frag1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_frag1, container, false);
-
-
-
-
-        return view;
-
+        return inflater.inflate(R.layout.fragment_frag3, container, false);
     }
-
 
 }

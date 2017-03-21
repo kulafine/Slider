@@ -2,8 +2,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/Fragment2"
-    tools:context="com.example.prinh.slider.Frag2">
+    tools:context="com.example.prinh.slider.Frag3"
+    android:background="@color/Fragment3">
 
 
 

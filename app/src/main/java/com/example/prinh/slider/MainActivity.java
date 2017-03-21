@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity {
                     return new Frag1();
                 case 1:
                     return new Frag2();
+                case 2:
+                    return new Frag3();
                 default:
                     return null;
 
@@ -107,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            return 2;
+            return 3;
         }
     }
 }
