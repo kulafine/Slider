@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
         linearLayout.removeAllViews();
         for (int i =0;i<2;i++){
             dots[i] = new TextView(this);
-            dots[i].setText(Html.fromHtml("&#45;"));
+            dots[i].setText(Html.fromHtml("&#8226;"));
             dots[i].setTextSize(35);
             dots[i].setTextColor(colorsInactive[CurrentPosition]);
             linearLayout.addView(dots[i]);
@@ -69,12 +69,12 @@ public class MainActivity extends AppCompatActivity {
     ViewPager.OnPageChangeListener viewPageListener = new ViewPager.OnPageChangeListener() {
         @Override
         public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-
+            addDots(position);
         }
 
         @Override
         public void onPageSelected(int position) {
-            addDots(position);
+
         }
 
         @Override
