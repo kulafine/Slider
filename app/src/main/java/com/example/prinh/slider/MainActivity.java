@@ -50,11 +50,11 @@ public class MainActivity extends AppCompatActivity {
         return viewPager.getCurrentItem();
     }
     private void addDots(int CurrentPosition){
-        dots = new TextView[2];
+        dots = new TextView[6];
         int[] colorsActive = getResources().getIntArray(R.array.array_dot_active);
         int[] colorsInactive = getResources().getIntArray(R.array.array_dot_inactive);
         linearLayout.removeAllViews();
-        for (int i =0;i<2;i++){
+        for (int i =0;i<6;i++){
             dots[i] = new TextView(this);
             dots[i].setText(Html.fromHtml("&#8226;"));
             dots[i].setTextSize(35);
