@@ -18,7 +18,6 @@
     android:layout_alignParentTop="true"
     android:orientation="horizontal"
     android:gravity="center"
-
     >
 </LinearLayout>
 
