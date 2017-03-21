@@ -15,4 +15,11 @@
         <item>@color/dot_dark_screen1</item>
         <item>@color/dot_dark_screenTwo</item>
     </array>
+
+    <!--Fragment colors-->
+    <color name="Fragment1">#f64c73</color>
+    <color name="Fragment2">#20d2bb</color>
+    <color name="Fragment3">#3395ff</color>
+    <color name="Fragment4">#FF5722</color>
+    <color name="Fragment5">#FFC107</color>
 </resources>
